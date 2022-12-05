@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(236, 223, 239);
+
+}
+table td img{
+    border-radius: 50px;
+}
+h1{
+    color: goldenrod;
+}
+h3{
+    color: blueviolet;
+}
+hr{
+    width: 40%;
+    color: rgb(224, 19, 19);
+    border-width: 5%;
+    border-top-style: dotted;
+    border-style: none;
+}
+/* Contact form style below */
+#div-1{
+    background-color: rgb(205, 76, 16);
+    width: 40%;
+    height: 200px; 
+    padding: 20px 10px 10px 20px;
+    margin-left: 25%; 
+    border-radius: 10px;
+
+}
+label{
+    color: azure;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+input[type=text]{
+    width: 80%;
+    border-radius: 2px;
+    border: solid;
+
+
+}
+input[type=email]{
+    width: 80%;
+    border: radius 2px; 
+    border:solid ;
+}
+button{
+    padding: 4px;
+    background-color: blanchedalmond;
+    border-style: none;
+    margin-top: 10px;
+    color: blueviolet;
+
+
+}
+button:hover{
+    background-color: black;
+    color:pink ;
+}
+/*relative and absorlute */
+ #box1{
+    width: 100px;
+   height: 100px;
+    background-color:red;
+ }
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: 100px;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 200px;
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 300px;
+}
+/* nav style below */
+#nav{
+
+}
+#nav ul{
+    background-color: aqua;
+margin:0;
+padding: 0;
+list-style-type: none;
+overflow: hidden;
+
+}
+#nav ul li{
+    float: left;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+    font-family: sans-serif;
+    display: block;
+    padding: 14px 16px;
+
+}
+#nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.flex-1{
+    background-color: rgb(183, 82, 214);
+    padding: 30px;
+    display: flex;
+}
+.box-1{
+width: 40%;
+}
+.flex-2{
+    background-color: aquamarine;
+    padding: 10px;
+
+}
+.flex-2 h2{
+    color: blueviolet;
+    font-size: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+.who-1{
+    background-color: red;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid white;
+}
+.who-i-am{
+display: flex;
+}
+.who-1 img{
+    border-radius: 100px;
+    align-items: center;
+}
+.who-1 h4{
+color: white;
+font-size: 30px;
+margin: 10px;
+
+}
